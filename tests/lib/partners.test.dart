@@ -1,0 +1,1 @@
+import 'package:test/test.dart'; import 'lib/partners.dart'; void main() { setenv('IP', '10.0.0.1'); expect(Partners().partnerIp, '10.0.0.1'); // Verifies environment variable is used instead of hardcoded value
